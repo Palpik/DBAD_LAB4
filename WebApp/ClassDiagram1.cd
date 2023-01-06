@@ -1,0 +1,187 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" GroupingSetting="Alphabetical">
+  <Class Name="WebApp.AdAgencyContext" Collapsed="true">
+    <Position X="4.25" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAEAAAAAAAAQAAAAAAAAAAAAGAAAABAAAQBAAAAAAAA=</HashCode>
+      <FileName>AdAgencyContext.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WebApp.AdPlace" Collapsed="true">
+    <Position X="6" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAECAAAAAAAgAAAAAAAAABAAAAAAAAAgAUAAAAAAAAA=</HashCode>
+      <FileName>Models\AdPlace.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WebApp.AdType" Collapsed="true">
+    <Position X="7.75" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAgAAAAAAAAAAQAAAAAABAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\AdType.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WebApp.Customer" Collapsed="true">
+    <Position X="4.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAECAEAAAAAAAAAAAAAQQAAAAAAAAAACAAAAAAAAAAg=</HashCode>
+      <FileName>Models\Customer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WebApp.Employee" Collapsed="true">
+    <Position X="6" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAECAEAAAAAAAAAAAAAQQAAAAAAAAAAAAAAAAAAAAAg=</HashCode>
+      <FileName>Models\Employee.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WebApp.OptionalService" Collapsed="true">
+    <Position X="7.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAgAAAAAAAAABQAAAAAAAAAAABAAAAAAAA=</HashCode>
+      <FileName>Models\OptionalService.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WebApp.Order" Collapsed="true">
+    <Position X="4.25" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAECAAAAAAAAAAAAAAAAAAAgCAAAABAAAEBAAEACBAA=</HashCode>
+      <FileName>Models\Order.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WebApp.OrdersOptional" Collapsed="true">
+    <Position X="6" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAECAAAAAAAAAAAAAQAACAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\OrdersOptional.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WebApp.Controllers.AdPlacesController" Collapsed="true">
+    <Position X="10.25" Y="0.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAABBACAAAAAAAAAAAEAAEAKAAEAAAAAAAA=</HashCode>
+      <FileName>Controllers\AdPlacesController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WebApp.Controllers.AdTypesController" Collapsed="true">
+    <Position X="12" Y="0.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAABBACAAAAAEAAAAAUAAGACAAEAAAAAAAA=</HashCode>
+      <FileName>Controllers\AdTypesController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WebApp.Controllers.CustomersController" Collapsed="true">
+    <Position X="14.25" Y="0.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAABBACAAAAAAABAAAEAAEACAAEAAAAAAAA=</HashCode>
+      <FileName>Controllers\CustomersController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WebApp.Controllers.EmployeesController" Collapsed="true">
+    <Position X="10.25" Y="1.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAABBACAAAAAAAAAACEAAEACAAEAAAAAAAA=</HashCode>
+      <FileName>Controllers\EmployeesController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WebApp.Controllers.HomeController" Collapsed="true">
+    <Position X="12.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAQAAAAAAAAAAIAAAAQAAAAEAAAAAAAA=</HashCode>
+      <FileName>Controllers\HomeController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WebApp.Controllers.OptionalServicesController" Collapsed="true">
+    <Position X="13.75" Y="1.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAABBACAAAAAAAAAAAEAgEACAAEAAAAAAAA=</HashCode>
+      <FileName>Controllers\OptionalServicesController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WebApp.Controllers.OrdersController" Collapsed="true">
+    <Position X="10.25" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAQAAAABBACAAAAAAAAAAAEAAEACAAEAAAAAAAA=</HashCode>
+      <FileName>Controllers\OrdersController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WebApp.Controllers.OrdersOptionalsController" Collapsed="true">
+    <Position X="12" Y="2.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAABBACAAAAAAAAAAAEAAEACAQEAAAAAAAA=</HashCode>
+      <FileName>Controllers\OrdersOptionalsController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WebApp.Controllers.UsersController" Collapsed="true">
+    <Position X="14.5" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABAAAAAAAAAAAAABAAAAgAAEAAEACAAMAAAAAAAA=</HashCode>
+      <FileName>Controllers\UsersController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WebApp.Data.ApplicationDbContext" Collapsed="true">
+    <Position X="4.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Areas\Identity\Data\ApplicationDbContext.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WebApp.Initializer.RoleInitializer" Collapsed="true">
+    <Position X="6" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>RoleInitializer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WebApp.ViewModels.FilterViewModels.AdPlaceFilterViewModel" Collapsed="true">
+    <Position X="10.25" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ViewModels\FilterViewModels\AdPlaceFilterViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WebApp.ViewModels.FilterViewModels.AdTypeFilterViewModel" Collapsed="true">
+    <Position X="12.5" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ViewModels\FilterViewModels\AdTypeFilterViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WebApp.ViewModels.FilterViewModels.CustomerFilertViewModel" Collapsed="true">
+    <Position X="14.25" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ViewModels\FilterViewModels\AdPlaceFilterViewModel - Copy - Copy.cs</FileName>
+      <NewMemberFileName>ViewModels\FilterViewModels\AdPlaceFilterViewModel - Copy.cs</NewMemberFileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WebApp.ViewModels.FilterViewModels.EmployeeFilertViewModel" Collapsed="true">
+    <Position X="10.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ViewModels\FilterViewModels\AdPlaceFilterViewModel - Copy - Copy (2).cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WebApp.ViewModels.FilterViewModels.OptionalServiceFilertViewModel" Collapsed="true">
+    <Position X="12.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ViewModels\FilterViewModels\AdPlaceFilterViewModel - Copy - Copy (2) - Copy.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WebApp.ViewModels.FilterViewModels.OrderFilertViewModel" Collapsed="true">
+    <Position X="14.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ViewModels\FilterViewModels\AdPlaceFilterViewModel - Copy.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WebApp.ViewModels.PageViewModels.PageViewModel" Collapsed="true">
+    <Position X="7.75" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ViewModels\PageViewModels\PageViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

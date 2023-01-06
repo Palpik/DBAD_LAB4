@@ -1,0 +1,74 @@
+﻿@using WebApp.ViewModels;
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+@addTagHelper *, WebApp
+
+@model WebApp.ViewModels.IndexViewModels.AdPlacesViewModel
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Ad Places</h1>
+
+<form method="get">
+    <label>Advertisement place: </label>
+    <input name="adPlaceName" value="@(Model.FilterViewModel.SelectedName)" />
+    <br>
+    <label>Advertisement type: </label>
+    <input name="adPlaceType" value="@(Model.FilterViewModel.SelectedType)" />
+    <br>
+    <input type="submit" value="Find" class="btn btn-primary" />
+</form>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                <a asp-action="Index"
+                   asp-route-sortOrder="@(Model.SortViewModel.NumberSort)">Number</a>
+            </th>
+            <th>
+                <a asp-action="Index"
+                   asp-route-sortOrder="@(Model.SortViewModel.PlaceSort)">Place</a>
+            </th>
+            <th>
+                <a asp-action="Index"
+                   asp-route-sortOrder="@(Model.SortViewModel.CostSort)">Cost</a>
+            </th>
+            <th>
+                <a asp-action="Index"
+                   asp-route-sortOrder="@(Model.SortViewModel.TypeSort)">Type</a>
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model.AdPlaces) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Id)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Place)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Cost)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Type.Name)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.Id">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
+<page-link page-model="Model.PageViewModel" page-action="Index"
+           page-url-adTypeName="@(Model.FilterViewModel.SelectedName)"
+           page-url-sortOrder="@(Model.SortViewModel.Current)"></page-link>
